@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 import * as firebase from 'firebase';
 import { map } from 'rxjs/operators';
 
-import { AppState } from '../app.reducer';
+import { AppState } from '../ingreso-egreso/ingreso-egreso.reducer';
 import { Store } from '@ngrx/store';
 import { ActivarLoadingAction, DesactivarLoadingAction } from '../shared/ui.actions';
 
